@@ -1,22 +1,20 @@
+
 ## Terminal shortcuts
----
+
 ### Cut | Copy | Paste
 
-- to copy the text - `&#8984; CMD + C`
-- to cut the text - `&#8984; CMD + X`
-- to paste the text - `&#8984; CMD + V`
-
----
+- To copy the text - `CMD + C`
+- To cut the text - `CMD + X`
+- To paste the text - `CMD + V`
 
 ### Move the cursor
 - Move cursor to first character - `Ctrl + A`
 - Move cursor to last character - `Ctrl + E`
 - Move cursor to left by one character - `Ctrl + B`
 - Move cursor to right by one character - `Ctrl + F`
-- Move cursor to left by one word - `alt|option + &#8592; (Left arrow)`
-- Move cursor to right by one word - `alt|option + &#8594; (Right arrow)`
+- Move cursor to left by one word - `alt|option + (Left arrow)`
+- Move cursor to right by one word - `alt|option + (Right arrow)`
 
----
 
 ### Delete character | word
 
@@ -30,8 +28,8 @@
 ### Clear Terminal
 
 - Terminate or cancel the command - `Ctrl + C`
-- Clear last ran command - `&#8984; CMD + L`
-- Clear screen - `&#8984; CMD + K`
+- Clear last ran command - `CMD + L`
+- Clear screen - `CMD + K`
 - Logout the terminal session - `Ctrl + D`
 
 ## Vi shortcuts
@@ -39,6 +37,7 @@
 ---
 
 - To open file for edit - `vi file_name.txt`
+
 ### Cursor Commands
 
 - Move left one character - `h`
@@ -59,7 +58,9 @@
 - Page forward one screen - `Ctrl-F` 
 - Scroll forward one-half screen - `Ctrl-D` 
 - Page backward one screen - `Ctrl-B` 
-- Scroll backward one-half screen - `Ctrl-U`
+- Scroll backward one-half screen - `Ctrl-U` 
+- Move cursor to last character of the line - `Fn + (Left arrow)`
+- Move cursor to first character of the line  - `Fn + (Right arrow)`
 
 ### Inserting Characters and Lines
 
@@ -126,87 +127,34 @@
 
 ### Searching and Replacing
 
-
 - Search for **string** - `/string`
 - Search backward for **string** - `?string`
 - Find next occurrence of **string** in search direction - `n`
 - Find previous occurrence of **string** in search direction - `N`
 - Search and replace - `:g/search/s//replace/g`
 
+### Clearing the Screen
 
+- Clear (refresh) scrambled screen - `Ctrl-L` 
 
+### Inserting a File Into a File
 
+- Insert (read) file after cursor - `:r filename` 
+- Insert file after line 34 - `:34 r filename` 
 
-- Delete one full line 
-- Clear full line & insert mode
-- Quit vi without save
-- Force quit vi without save
-- Quit vi with save
+### Saving and Quitting
 
-### Delete multiple lines 
-
-### Move cursor to last character of the line
-### Move cursor to first character of the line
-### Move cursor by word to left
-### Move cursor by word to right
-### Move cursor by line number
-
-### Search by word
-
-### Comment multiple lines with VISUAL BLOCK
-
-### Screen
-### Git
-
-- Print the file
-- Show real updates on log files
-- 
-
-
-
-## Nano
-
----
-
-
-## Network commands
-
----
-
-### Search by process name
-### Search by process port
-### Stop process by process id
-### Stop process by process name
-### Curl
-### telnet
-### dig
-### chmod
-### chmown
-### ssh
-### scp
-### security groups
-### Update to network UTC time
-
-
-
-## Apps
-
----
-
-### NGINX
-### SUPERVISOR
-### MYSQL
-### REDIS
-### Memcache
-### Celery Flower
-
-
+- Save changes (write buffer) - `:w` 
+- Write buffer to named file - `:w filename` 
+- Save changes and quit vi - `:wq` 
+- Save changes and quit vi - `ZZ` 
+- Quit without saving changes - `:q`
+- Force quit vi without saving changes - `:q!` 
 
 # Thanks
 
+## References: 
 
-https://stackoverflow.com/questions/657130/fastest-ways-to-move-the-cursor-on-a-terminal-command-line
-https://superuser.com/questions/362113/how-to-delete-all-characters-after-cursor-in-shell
-
-
-https://docs.oracle.com/cd/E19253-01/806-7612/editorvi-tbl-83/index.html
+- https://stackoverflow.com/questions/657130/fastest-ways-to-move-the-cursor-on-a-terminal-command-line
+- https://superuser.com/questions/362113/how-to-delete-all-characters-after-cursor-in-shell
+- https://docs.oracle.com/cd/E19253-01/806-7612/editorvi-tbl-83/index.html
