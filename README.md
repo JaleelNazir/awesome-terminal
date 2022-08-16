@@ -6,8 +6,11 @@
 - To copy the text - `CMD + C`
 - To cut the text - `CMD + X`
 - To paste the text - `CMD + V`
+- Print the file - `cat filename`
+- Show real updates on log files - `tail -f filename`
 
 ### Move the cursor
+
 - Move cursor to first character - `Ctrl + A`
 - Move cursor to last character - `Ctrl + E`
 - Move cursor to left by one character - `Ctrl + B`
@@ -33,8 +36,6 @@
 - Logout the terminal session - `Ctrl + D`
 
 ## Vi shortcuts
-
----
 
 - To open file for edit - `vi file_name.txt`
 
@@ -150,6 +151,35 @@
 - Save changes and quit vi - `ZZ` 
 - Quit without saving changes - `:q`
 - Force quit vi without saving changes - `:q!` 
+
+
+# Todo:
+
+- [ ] VISUAL BLOCK
+  - [ ]  Comment multiple lines 
+- [ ] Screen
+- [ ] Git
+- [ ] Nano
+- [ ] Network commands
+- [ ] Search by process name
+- [ ] Search by process port
+- [ ] Stop process by process id
+- [ ] Stop process by process name
+- [ ] Curl
+- [ ] telnet
+- [ ] dig
+- [ ] File permissions - chmod & chmown
+- [ ] ssh
+- [ ] scp
+- [ ] Security groups
+- [ ] Update to network UTC time
+- [ ] NGINX
+- [ ] SUPERVISOR
+- [ ] MYSQL
+- [ ] REDIS
+- [ ] Memcache
+- [ ] Celery Flower
+
 
 # Thanks
 
